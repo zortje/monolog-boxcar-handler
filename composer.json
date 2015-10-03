@@ -1,0 +1,40 @@
+{
+    "name": "zortje/monolog-boxcar-handler",
+    "description": "Sends push notifications to Boxcar for iOS",
+    "type": "library",
+    "keywords": [
+        "monolog",
+        "boxcar",
+        "notifications"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "René Tønner Stokholm",
+            "email": "zortje@gmail.com",
+            "homepage": "http://www.renestokholm.dk",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/zortje/monolog-boxcar-handler/issues"
+    },
+    "require": {
+        "php": ">=5.4",
+        "monolog/monolog": "~1.0",
+        "zortje/boxcar-notifications-php": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zortje\\MonologBoxcarHandler\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zortje\\MonologBoxcarHandler\\Tests\\": "tests/"
+        }
+    }
+}
